@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+
+	<class name="model.RoomType" table="bbt_roomtype">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+	    <property name="name"/>
+	    <property name="price"/>
+	    <property name="priceAdded"/>
+	    
+	</class>
+	
+</hibernate-mapping>

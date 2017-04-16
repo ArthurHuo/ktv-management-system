@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+
+	<class name="model.Room" table="bbt_room">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="number"/>
+	    <property name="floor"/>
+	    <property name="type"/>
+	    <property name="money"/>
+	    <property name="startTime"/>
+	    <property name="endTime"/>
+	    <property name="booked"/>
+	    
+	</class>
+	
+</hibernate-mapping>
